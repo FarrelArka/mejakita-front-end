@@ -1,0 +1,81 @@
+.hoveranimate {
+    transition: all .3s ease-in-out;
+  }
+  .hoveranimate:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .navbar-brand img,
+  .nav-link img {
+    width: 24px; 
+    height: 24px; 
+  }
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .card-body {
+    padding: 20px;
+  }
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .card-text {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  /* Styles untuk gambar plus */
+  .plus-img {
+    position: fixed;
+    bottom: 30px;
+    right: 32px;
+    width: 40px; 
+    height: 40px; 
+    z-index: 1000; 
+  }
+  .course-card {
+    max-width: 300px; 
+    margin: 0 auto;
+   }
+   .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .nav-link {
+    color: #000000;
+    text-decoration: none;
+    align-items: center;
+  }
+  
+  .custom-card {
+    width: 70%;
+    height: auto;
+    font-size: 0.8rem; 
+    min-width: 70%; 
+    line-height: 3em;
+  }
+  
+  
+  .hr-line {
+    border: 1px solid #FF3066;
+    margin-top: 2px;
+    margin-bottom: 0;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+
+.published-line {
+  border: none;
+  height: 2px;
+ background-color: #ff0044;
+}
